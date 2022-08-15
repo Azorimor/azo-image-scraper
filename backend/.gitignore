@@ -1,0 +1,9 @@
+# Ignore frontend ui files (this should be the build output from the react application)
+ui/*
+
+# Ignore temp output from go build server.go
+*.exe
+
+# Ignore database files
+*.sqlite3
+*.sqlite
